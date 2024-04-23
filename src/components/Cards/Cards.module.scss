@@ -1,0 +1,16 @@
+$radius : 10px;
+
+.cards {
+    border: 2px solid #3c3e44;
+    border-radius: $radius;
+}
+
+.img {
+    border-radius: $radius 0 0;
+}
+.statusCircle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; /* Makes the div round */
+  }
+  
