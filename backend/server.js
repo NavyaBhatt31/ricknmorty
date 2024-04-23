@@ -5,10 +5,8 @@ const axios = require('axios');
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-// Enable CORS
 app.use(cors());
 
-// Define route to fetch characters
 app.get('/api/character', async (req, res) => {
   const { page, status, gender, species } = req.query;
   try {

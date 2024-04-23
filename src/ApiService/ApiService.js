@@ -1,7 +1,7 @@
 import axios from 'axios';
 export const fetchData = async (pageNumber, status, gender, species) => {
     try {
-      const response = await axios.get(`http://localhost:5000/api/character/?page=${pageNumber}&status=${status}&gender=${gender}&species=${species}`);
+      const response = await axios.get(`https://ricknmorty.onrender.com/api/character/?page=${pageNumber}&status=${status}&gender=${gender}&species=${species}`);
       console.log('API Response:', response.data);
 return response
       // Assuming the earthquake data is stored in the `features` property
@@ -11,4 +11,4 @@ return response
       console.error('Error fetching earthquake data:', error);
       
     }
-  };
+  }
