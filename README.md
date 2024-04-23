@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+### **Rick and Morty Character App**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### Brief
+This project is a FullStack Rick and Morty character app/website built using the rickandmortyapi.com. It offers a user-friendly interface to explore characters from the popular TV show.
 
-## Available Scripts
+#### Information
+1. **Technology Stack**: This project is built using React.js for the frontend.
+2. **Styling**: Bootstrap and Sass/SCSS have been used for styling.
+3. **Backend**: Node.js, Express, and Axios are utilized for fetching data from the API.
+4. **Local Setup**: To run the project locally, execute `npm start` at the root level (ricknmorty). For the backend server, run `node server` in the backend directory.
+5. **Hosting**: The website is hosted and deployed on [Render](https://render.com/).
+    - Frontend: [Rick and Morty Character App](https://ricknmorty-31.onrender.com/)
+    - Backend: [API Endpoint](https://ricknmorty.onrender.com/api/character/?page=&status=&gender=&species=)
 
-In the project directory, you can run:
+#### Features/Functionalities
+1. **Robust Website**: Responsive design ensures accessibility across devices.
+2. **Character Cards**: Each card displays details like image, name, location, gender, and status of the character.
+3. **Dynamic Status Symbol**: Status symbols change color based on the character's status (green for alive, red for dead, neutral for unknown).
+4. **Detailed Character View**: Clicking on a card opens a new screen with detailed character information, including image, origin, species, and gender.
+5. **Pagination**: React pagination allows users to navigate through 42 pages of characters.
+6. **Filter Feature**: Users can filter characters based on gender, species, and status, providing a personalized browsing experience.
 
-### `npm start`
+Enjoy exploring the fascinating world of Rick and Morty characters!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
