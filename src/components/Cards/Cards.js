@@ -13,7 +13,7 @@ const Cards = ({ results, page }) => {
        return(
       <Link 
       to={`${page}${id}`}
-      key={id} className={`col-6 position-relative`} style={{ marginBottom: '20px'}}>
+      key={id} className={` col-6 position-relative`} style={{ marginBottom: '20px'}}>
         <div className={`${styles.cards} d-flex flex-column`}>
         <div className="d-flex"> {/* Container for image and content */}
           <img
@@ -22,7 +22,7 @@ const Cards = ({ results, page }) => {
             className={`${styles.img} img-fluid`}
             style={{ width: '180px', height: '180px', marginRight: '20px' }} // Adjust width and height as needed
           /> {/* Image */}
-            <div className={`${styles.content} text-dark`}>
+            <div className={`${styles.content} text-white`}>
             <div className="fs-4 fw-bold mb-2">{name}</div>
             <div className="d-flex align-items-center"> {/* Container for status and location */}
             {(()=>{
